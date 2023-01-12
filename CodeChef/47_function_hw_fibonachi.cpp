@@ -24,5 +24,3 @@ int main()
 	cout << fib(n);
 	return 0;
 }
-
-// This code is contributed by Code_Mech
