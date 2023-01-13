@@ -1,20 +1,21 @@
-//{ Driver Code Starts
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
-// } Driver Code Ends
-//User function template for C++
 class Solution{
 public:
-	// function to return sum of elements
-	// in an array of size n
+	
 	int sum(int arr[], int n) {
-	    // code here
+        int Sum = 0;
+	    for(int j=0 ;j<n;j++){
+            Sum= Sum + arr[j];
+        }
+        
+        return Sum;
 	}
 };
 
-//{ Driver Code Starts.
 
 int main() {
     int t;
@@ -32,4 +33,3 @@ int main() {
     }
     return 0;
 }
-// } Driver Code Ends
