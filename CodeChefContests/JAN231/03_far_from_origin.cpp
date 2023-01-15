@@ -16,7 +16,7 @@ int main() {
 	    else if(d2>d1){
 	        cout<<"BOB"<<endl;
 	    }
-	    else if(d1=d2){
+	    else if(d1==d2){
 	        cout<<"EQUAL"<<endl;
 	    }
 	}
