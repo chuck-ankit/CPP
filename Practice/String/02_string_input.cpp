@@ -8,5 +8,6 @@ int main(){
     cin >> str;
     cout << "You Entered: "<<str<< endl;
     return 0;
-    
+
 }
+// This program will only return single word not a sentence or paragraph taken in input.
